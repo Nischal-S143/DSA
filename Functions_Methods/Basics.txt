@@ -1,0 +1,30 @@
+Definition of Functions in java :-
+=> Functions are the block of code that can be reused when required and basically inside the Functions we write the logic and when required we use them by calling.
+
+syntax :-
+returnType name(){
+    //body
+    return statement;
+}
+
+
+returnType = void , int , float , double etc.
+
+by default the function name is -> main
+It is also a keyword in the dictionary of java we cannot use it in any other function name.
+
+What is Method?
+-> when we write the functions inside the class they are called methods.
+
+
+syntax with Parameters:-
+returnType name(type parameter1 , type parameter2){
+    //body
+    return statement;
+}
+
+
+In java there is always the call by value means always the copy of the passed variable goes to the function there is no pass by reference in java .
+
+
+Function overloading depends upon the no of parameters not on the return type but if we change the return type while keeping the no of parameters same it works.OO
